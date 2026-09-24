@@ -3,7 +3,8 @@ import spacy
 
 from sentence_transformers import SentenceTransformer
 
-from .ingestion import Document, Chunk
+# from .ingestion import Document, Chunk
+from .ingestion import Document
 
 
 class SemanticChunker:

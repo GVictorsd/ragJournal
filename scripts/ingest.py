@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+# 1. Get the directory of myscript.py, then get its parent (my_project root)
+root_dir = Path(__file__).resolve().parent.parent
+# 2. Add the root directory to Python's module search path
+if str(root_dir) not in sys.path:
+    sys.path.insert(0, str(root_dir))
+
 import json
 from dataclasses import asdict
 
@@ -15,7 +23,7 @@ def main():
     # --------------------------------
 
     documents = load_markdown_documents(
-        "./dataset"
+        "../dataset"
     )
 
     print(
@@ -41,6 +49,8 @@ def main():
         f"Fixed chunking produced "
         f"{len(fixed_chunks)} chunks"
     )
+
+    return
 
     # --------------------------------
     # 3. Semantic chunking

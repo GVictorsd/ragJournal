@@ -5,8 +5,11 @@ from typing import Any
 import re
 
 
+# DATE_FILENAME_PATTERN = re.compile(
+#     r"^(?P<date>\d{4}-\d{2}-\d{2})\.md$"
+# )
 DATE_FILENAME_PATTERN = re.compile(
-    r"^(?P<date>\d{4}-\d{2}-\d{2})\.md$"
+    r"^\d+_(?P<date>\d{4}-\d{2}-\d{2})_.+\.md$"
 )
 
 
@@ -49,7 +52,15 @@ def load_markdown_documents(dataset_dir: str = "./dataset") -> list[Document]:
 
     documents: list[Document] = []
 
+    # TODO: remove count later
+    count = 0
+    max_count = 5
     for file_path in sorted(dataset_path.glob("*.md")):
+        # TODO: remove later
+        count += 1
+        if count > max_count:
+            break
+
         match = DATE_FILENAME_PATTERN.match(file_path.name)
 
         if not match:
