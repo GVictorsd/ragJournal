@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+root_dir = Path(__file__).resolve().parent.parent
+if str(root_dir) not in sys.path:
+    sys.path.insert(0, str(root_dir))
+
+from app.models.chunk import Chunk
+
 import numpy as np
 import spacy
 
@@ -65,25 +73,16 @@ class SemanticChunker:
             ],
         )
 
-        # Add the lightweight sentencizer because the parser
-        # has been disabled.
+        # Add the lightweight sentencizer because the parser has been disabled.
         if "sentencizer" not in self.nlp.pipe_names:
             self.nlp.add_pipe("sentencizer")
 
         # Sentence embedding model.
-        self.model = SentenceTransformer(
-            model_name
-        )
-
-        self.similarity_threshold = (
-            similarity_threshold
-        )
-
+        self.model = SentenceTransformer(model_name)
+        self.similarity_threshold = (similarity_threshold)
         self.min_sentences = min_sentences
         self.max_sentences = max_sentences
-        self.max_chunk_characters = (
-            max_chunk_characters
-        )
+        self.max_chunk_characters = (max_chunk_characters)
 
     def split_into_sentences(
         self,

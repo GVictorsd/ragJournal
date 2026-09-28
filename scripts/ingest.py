@@ -23,7 +23,8 @@ def main():
     # --------------------------------
 
     documents = load_markdown_documents(
-        "../dataset"
+        # "../dataset"
+        "dataset"
     )
 
     print(
@@ -35,8 +36,8 @@ def main():
     # --------------------------------
 
     fixed_chunker = FixedTokenChunker(
-        chunk_size=500,
-        overlap=100,
+        chunk_size=200,
+        overlap=25,
     )
 
     fixed_chunks = (
@@ -50,7 +51,6 @@ def main():
         f"{len(fixed_chunks)} chunks"
     )
 
-    return
 
     # --------------------------------
     # 3. Semantic chunking
