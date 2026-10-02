@@ -1,0 +1,814 @@
+[
+  {
+    "chunk_id": "journal-001_chunk_0",
+    "document_id": "journal-001",
+    "content": "I started the year by writing down what I want from my career over the next two years. I want to become a stronger software engineer rather than simply collecting more framework names.",
+    "title": "Year-Long Career Goals for Software Engineering",
+    "summary": "The writer outlined their career goals for the next two years, aiming to improve their software engineering skills beyond memorizing frameworks.",
+    "keywords": [
+      "career planning",
+      "software engineering",
+      "career goals",
+      "frameworks",
+      "career development",
+      "professional growth",
+      "engineer",
+      "professional development",
+      "job skills",
+      "career progression"
+    ],
+    "questions": [
+      "What specific areas of software engineering does the writer hope to improve upon in the next two years?",
+      "How does the writer plan to achieve their goal of becoming a stronger software engineer?",
+      "What types of frameworks does the writer intend to focus on in their career development?",
+      "What role does the writer perceive themselves playing in their company or industry in two years?",
+      "How will the writer measure their success in meeting their career goals in the next two years?"
+    ],
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 0,
+      "chunking_method": "semantic",
+      "sentence_start": 0,
+      "sentence_end": 1,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-001_chunk_1",
+    "document_id": "journal-001",
+    "content": "My main technical goals are system design, cloud infrastructure, backend engineering, and practical AI application development. I also want to become more comfortable explaining trade-offs in interviews.",
+    "title": "Career Development Goals: Technical and Interview Skills",
+    "summary": "The individual aims to improve their technical skills in system design, cloud infrastructure, backend engineering, and practical AI development. They also want to enhance their ability to explain trade-offs in interviews.",
+    "keywords": [
+      "career planning",
+      "technical goals",
+      "system design",
+      "cloud infrastructure",
+      "backend engineering",
+      "AI development",
+      "trade-offs",
+      "interview skills"
+    ],
+    "questions": [
+      "What specific areas do you focus on improving in your technical skills?",
+      "How do you plan to enhance your ability to explain trade-offs in interviews?",
+      "What steps are you taking to develop your skills in practical AI application development?",
+      "What specific areas of cloud infrastructure are you interested in learning more about?",
+      "How do you plan to become more comfortable with explaining trade-offs during technical interviews?"
+    ],
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 1,
+      "chunking_method": "semantic",
+      "sentence_start": 2,
+      "sentence_end": 3,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-001_chunk_2",
+    "document_id": "journal-001",
+    "content": "A recurring problem in my learning is that I read about many subjects without building enough things. I am changing that by attaching each major topic to a project.",
+    "title": "Linking Learning to Projects",
+    "summary": "The writer is addressing the issue of not building enough from reading many subjects, by tying each major topic to a project.",
+    "keywords": [
+      "career planning",
+      "project-based learning",
+      "knowledge application",
+      "reading without doing",
+      "professional development"
+    ],
+    "questions": [
+      "What specific projects are you planning to start with this approach?",
+      "How do you expect this method of linking learning to projects to impact your career growth?",
+      "Can you identify any existing projects that you could connect to your current learning areas?",
+      "How will you measure the success of this new approach to learning?",
+      "What kind of challenges do you foresee in this new method of learning and how will you overcome them?"
+    ],
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 2,
+      "chunking_method": "semantic",
+      "sentence_start": 4,
+      "sentence_end": 5,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-001_chunk_3",
+    "document_id": "journal-001",
+    "content": "For example, I want to learn retrieval-augmented generation by building a private journal assistant. The project should let me ask questions about old entries, retrieve relevant passages, and show the evidence used for an answer.",
+    "title": "Private Journal Assistant Development",
+    "summary": "The writer plans to develop a private journal assistant that can answer questions about old entries by retrieving and showing the evidence used for an answer.",
+    "keywords": [
+      "retrieval-augmented generation",
+      "journal assistant",
+      "old entries",
+      "private journal",
+      "evidence",
+      "question answering"
+    ],
+    "questions": [
+      "What are the main components of the private journal assistant?",
+      "How will the assistant retrieve relevant passages from old entries?",
+      "What kind of evidence should the assistant show when answering questions?",
+      "How can the assistant ensure the accuracy of the evidence used for answers?",
+      "What are the potential user scenarios for this private journal assistant?"
+    ],
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 3,
+      "chunking_method": "semantic",
+      "sentence_start": 6,
+      "sentence_end": 7,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-001_chunk_4",
+    "document_id": "journal-001",
+    "content": "I wrote down this plan because I want to be able to look back later and see whether my actual work matched my intentions.",
+    "title": "Career Plan for Future Reference",
+    "summary": "The writer created a career plan to review and reflect on their actual work against their initial intentions at a later date.",
+    "keywords": [
+      "career planning",
+      "future reference",
+      "intention review",
+      "work alignment"
+    ],
+    "questions": [
+      "What are the key objectives included in the career plan?",
+      "Why is it important for the writer to review their actual work against their intentions?",
+      "Does the career plan cover both short-term and long-term goals?",
+      "How often does the writer plan to review the career plan?",
+      "What specific areas of work does the writer aim to align with their intentions?"
+    ],
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 4,
+      "chunking_method": "semantic",
+      "sentence_start": 8,
+      "sentence_end": 8,
+      "sentence_count": 1
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_0",
+    "document_id": "journal-002",
+    "content": "My mornings have been inconsistent, especially on days when I work late the previous evening. I experimented with preparing everything the night before: clothes, water bottle, breakfast ingredients, and a short list of priorities.",
+    "title": "Consistent Morning Routine Experiment",
+    "summary": "The writer experimented with a consistent morning routine by preparing everything the night before, including clothes, water bottle, breakfast ingredients, and a list of priorities to be ready for a late-night work session.",
+    "keywords": [
+      "morning routine",
+      "consistent",
+      "preparation",
+      "late work",
+      "priorities"
+    ],
+    "questions": [
+      "What specific items did the writer prepare the night before for their morning routine?",
+      "What were the writer's priorities for the day as part of their morning routine?",
+      "How did the writer's previous evening work schedule affect their morning routine consistency?",
+      "What challenges did the writer face when trying to stick to a consistent morning routine?",
+      "Did the writer's experiment with the morning routine lead to any noticeable improvement in their productivity?"
+    ],
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 0,
+      "chunking_method": "semantic",
+      "sentence_start": 0,
+      "sentence_end": 1,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_1",
+    "document_id": "journal-002",
+    "content": "The small amount of preparation made getting started easier. I also decided not to check social media immediately after waking up.",
+    "title": "Reducing Distraction Through Morning Preparation",
+    "summary": "The writer found that minimal preparation helped start their day smoothly and they chose not to immediately check social media after waking up.",
+    "keywords": [
+      "morning routine",
+      "minimal preparation",
+      "avoid social media",
+      "wake up"
+    ],
+    "questions": [
+      "What was the writer's main observation about their morning routine?",
+      "Why did the writer decide to avoid checking social media immediately after waking up?",
+      "How did this morning routine change the way the writer began their day?",
+      "What role does social media play in the writer's morning routine?",
+      "Did the writer find any other benefits from reducing the amount of preparation?"
+    ],
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 1,
+      "chunking_method": "semantic",
+      "sentence_start": 2,
+      "sentence_end": 3,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_2",
+    "document_id": "journal-002",
+    "content": "Instead, I spend the first few minutes reviewing the day's calendar and deciding what absolutely needs attention. This is not a rigid productivity system.",
+    "title": "Flexible Morning Calendar Review",
+    "summary": "The author reviews the day's calendar to identify what absolutely needs attention, focusing on a flexible, non-rigid approach to productivity.",
+    "keywords": [
+      "morning routine",
+      "calendar review",
+      "flexible productivity",
+      "non-rigid system",
+      "productivity",
+      "morning",
+      "focus",
+      "attention",
+      "calendar",
+      "morning tasks"
+    ],
+    "questions": [
+      "What specific actions does the author take during their morning routine to manage their time effectively?",
+      "How does the author ensure their productivity system remains flexible despite its importance?",
+      "Does the author have a strict schedule or is there room for personalization in their morning routine?",
+      "What are the benefits of reviewing the calendar before starting the day's tasks?",
+      "Can you describe the types of tasks the author decides need immediate attention?"
+    ],
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 2,
+      "chunking_method": "semantic",
+      "sentence_start": 4,
+      "sentence_end": 5,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_3",
+    "document_id": "journal-002",
+    "content": "I mainly want fewer decisions before I become fully alert. I noticed that when I start calmly, I am less likely to spend the first hour reacting to messages.",
+    "title": "Reducing Decision Fatigue in Morning Routine",
+    "summary": "The author aims to reduce the number of decisions before becoming fully alert and notices that starting calmly helps minimize reactions in the morning.",
+    "keywords": [
+      "morning routine",
+      "reduce decisions",
+      "alertness",
+      "message reactions",
+      "calm start"
+    ],
+    "questions": [
+      "How does the author believe reducing decisions in the morning affects alertness levels?",
+      "What specific steps does the author take to start calmly in the morning?",
+      "Do you agree with the author's strategy of minimizing reactions in the morning to improve alertness?",
+      "In your morning routine, have you noticed a correlation between the number of decisions you make and your alertness levels?",
+      "What can be done to prevent unnecessary reactions when starting the day?"
+    ],
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 3,
+      "chunking_method": "semantic",
+      "sentence_start": 6,
+      "sentence_end": 7,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_4",
+    "document_id": "journal-002",
+    "content": "I want to keep this routine for several weeks before deciding whether it is actually useful.",
+    "title": "Introducing a New Morning Routine",
+    "summary": "The writer wants to continue their new morning routine for several weeks before determining its usefulness.",
+    "keywords": [
+      "morning routine",
+      "continue",
+      "usefulness",
+      "several weeks",
+      "decision making"
+    ],
+    "questions": [
+      "How long does the writer plan to keep their new morning routine?",
+      "What specific aspects of the morning routine are they evaluating for usefulness?",
+      "Does the writer expect the routine to change based on its effectiveness?",
+      "Are there any particular outcomes the writer hopes to see from their routine?",
+      "How might the writer use feedback from their new routine to inform future decisions?"
+    ],
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 4,
+      "chunking_method": "semantic",
+      "sentence_start": 8,
+      "sentence_end": 8,
+      "sentence_count": 1
+    }
+  },
+  {
+    "chunk_id": "journal-003_chunk_0",
+    "document_id": "journal-003",
+    "content": "I reviewed the architecture of a web application I have been working with and tried to understand it as a set of responsibilities rather than a collection of folders. The frontend handles presentation and interaction, the API coordinates business operations, repositories manage persistence, and background workers handle tasks that do not need to block a request.",
+    "title": "Understanding Web Application Architecture",
+    "summary": "The author reviewed the architecture of a web application and categorized it into frontend, API, repositories, and background workers based on their responsibilities.",
+    "keywords": [
+      "Web Application",
+      "Architecture",
+      "Responsibilities",
+      "Frontend",
+      "API",
+      "Repositories",
+      "Background Workers"
+    ],
+    "questions": [
+      "What does the frontend of a web application handle?",
+      "How does the API coordinate business operations in the application?",
+      "What role do repositories play in a web application's architecture?",
+      "What is the function of background workers in the application?",
+      "What are some ways to categorize the components of a web application's architecture?"
+    ],
+    "metadata": {
+      "date": "2026-01-10",
+      "topic": "Software Architecture",
+      "entry_id": "journal-003",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\03_2026-01-10_software_architecture.md",
+      "filename": "03_2026-01-10_software_architecture.md",
+      "file_type": "markdown",
+      "title": "Software Architecture",
+      "date_object": "2026-01-10",
+      "chunk_index": 0,
+      "chunking_method": "semantic",
+      "sentence_start": 0,
+      "sentence_end": 1,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-003_chunk_1",
+    "document_id": "journal-003",
+    "content": "Thinking this way made several design decisions easier to explain. I also noticed areas where boundaries are not clean and a change in one layer often requires changes elsewhere.",
+    "title": "Improving Design Clarity in Software Architecture",
+    "summary": "Noting improvements in design clarity and areas needing better boundary definitions, suggesting that changes in one layer may affect others.",
+    "keywords": [
+      "software architecture",
+      "design decisions",
+      "boundary definitions",
+      "layer changes",
+      "system complexity"
+    ],
+    "questions": [
+      "What areas of the system are currently not well defined in terms of boundaries?",
+      "How can understanding the interdependencies between layers facilitate better design decisions?",
+      "What are some common patterns or practices to improve boundary clarity and reduce interdependencies?",
+      "How can the team ensure that these changes are communicated effectively to other stakeholders?",
+      "What tools or methods can be used to track and manage the effects of changes across layers?"
+    ],
+    "metadata": {
+      "date": "2026-01-10",
+      "topic": "Software Architecture",
+      "entry_id": "journal-003",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\03_2026-01-10_software_architecture.md",
+      "filename": "03_2026-01-10_software_architecture.md",
+      "file_type": "markdown",
+      "title": "Software Architecture",
+      "date_object": "2026-01-10",
+      "chunk_index": 1,
+      "chunking_method": "semantic",
+      "sentence_start": 2,
+      "sentence_end": 3,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-003_chunk_2",
+    "document_id": "journal-003",
+    "content": "I wrote down examples of coupling so I can discuss them later when studying refactoring. One important lesson is that architecture is not about creating as many layers as possible.",
+    "title": "Understanding Coupling in Software Architecture",
+    "summary": "The writer notes that coupling is an important concept to understand and discusses not focusing on creating unnecessary layers in architecture.",
+    "keywords": [
+      "coupling",
+      "architecture",
+      "refactoring",
+      "layers",
+      "important",
+      "lesson",
+      "understanding",
+      "software",
+      "design"
+    ],
+    "questions": [
+      "What is the main lesson learned about architecture from this diary entry?",
+      "Why does the author emphasize not creating too many layers in architecture?",
+      "How does coupling relate to the concept of refactoring mentioned in the diary?",
+      "Can you provide an example of what the author wrote down about coupling?",
+      "How does the writer's understanding of architecture impact their approach to refactoring?"
+    ],
+    "metadata": {
+      "date": "2026-01-10",
+      "topic": "Software Architecture",
+      "entry_id": "journal-003",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\03_2026-01-10_software_architecture.md",
+      "filename": "03_2026-01-10_software_architecture.md",
+      "file_type": "markdown",
+      "title": "Software Architecture",
+      "date_object": "2026-01-10",
+      "chunk_index": 2,
+      "chunking_method": "semantic",
+      "sentence_start": 4,
+      "sentence_end": 5,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-003_chunk_3",
+    "document_id": "journal-003",
+    "content": "Every abstraction should have a reason, and the cost of indirection should be justified by the problem it solves.",
+    "title": "The Importance of Abstraction in Software Architecture",
+    "summary": "This chunk emphasizes the importance of abstractions in software architecture, stating that each should have a reason and that the cost of indirection should be justified.",
+    "keywords": [
+      "abstraction",
+      "software architecture",
+      "indirection",
+      "justification",
+      "reason"
+    ],
+    "questions": [
+      "Why is it crucial for an abstraction to have a reason?",
+      "What factors should be considered when deciding if the cost of indirection is justified?",
+      "Can you provide an example of a software architecture where abstractions are overused and need to be reconsidered?",
+      "How does the principle of abstraction relate to the concept of SOLID principles in software design?",
+      "In what scenarios might the justification for an abstraction's cost be questionable or invalid?"
+    ],
+    "metadata": {
+      "date": "2026-01-10",
+      "topic": "Software Architecture",
+      "entry_id": "journal-003",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\03_2026-01-10_software_architecture.md",
+      "filename": "03_2026-01-10_software_architecture.md",
+      "file_type": "markdown",
+      "title": "Software Architecture",
+      "date_object": "2026-01-10",
+      "chunk_index": 3,
+      "chunking_method": "semantic",
+      "sentence_start": 6,
+      "sentence_end": 6,
+      "sentence_count": 1
+    }
+  },
+  {
+    "chunk_id": "journal-004_chunk_0",
+    "document_id": "journal-004",
+    "content": "I finished a book about habits and wrote a summary immediately afterward. The idea that stayed with me was that changing the environment can be more reliable than depending on motivation.",
+    "title": "The Impact of Changing Environment Over Motivation",
+    "summary": "In the diary entry, the author summarized a book about habits, emphasizing the importance of changing the environment over relying on motivation.",
+    "keywords": [
+      "habits",
+      "environment",
+      "motivation",
+      "book summary",
+      "reliability"
+    ],
+    "questions": [
+      "What main idea from the book did the author find the most compelling?",
+      "How might changing the environment be more effective than relying on motivation, according to the book's message?",
+      "Can you provide an example of how changing the environment could positively impact motivation?"
+    ],
+    "metadata": {
+      "date": "2026-01-14",
+      "topic": "Reading",
+      "entry_id": "journal-004",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\04_2026-01-14_reading.md",
+      "filename": "04_2026-01-14_reading.md",
+      "file_type": "markdown",
+      "title": "Reading",
+      "date_object": "2026-01-14",
+      "chunk_index": 0,
+      "chunking_method": "semantic",
+      "sentence_start": 0,
+      "sentence_end": 1,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-004_chunk_1",
+    "document_id": "journal-004",
+    "content": "I applied that idea to technical learning by leaving my notebook open on the desk and keeping a small list of questions next to the computer. I also started making shorter reading notes.",
+    "title": "Enhancing Technical Learning Through Note-taking",
+    "summary": "The author applied a reading technique to improve technical learning by keeping a notebook and a list of questions nearby, and started making shorter reading notes.",
+    "keywords": [
+      "reading",
+      "technical learning",
+      "note-taking",
+      "questions",
+      "short notes"
+    ],
+    "questions": [
+      "How did the author apply the reading technique to technical learning?",
+      "What did the author do to keep track of questions while reading?",
+      "What changes did the author make to the way they take notes during reading?"
+    ],
+    "metadata": {
+      "date": "2026-01-14",
+      "topic": "Reading",
+      "entry_id": "journal-004",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\04_2026-01-14_reading.md",
+      "filename": "04_2026-01-14_reading.md",
+      "file_type": "markdown",
+      "title": "Reading",
+      "date_object": "2026-01-14",
+      "chunk_index": 1,
+      "chunking_method": "semantic",
+      "sentence_start": 2,
+      "sentence_end": 3,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-004_chunk_2",
+    "document_id": "journal-004",
+    "content": "Instead of trying to capture every interesting sentence, I record the main argument, one example, and whether I think the idea is applicable to my own work. This should make the notes more useful for future retrieval.",
+    "title": "Effective Note-Taking While Reading",
+    "summary": "The writer uses a method of recording only the main argument, one example, and whether the idea can be applied to their work to make notes more useful.",
+    "keywords": [
+      "note-taking",
+      "reading",
+      "usefulness",
+      "application",
+      "work"
+    ],
+    "questions": [
+      "How do you decide what to record during a reading session?",
+      "What is the importance of understanding if the reading material can be applied to their work?",
+      "How can recording one example help in understanding the main argument?",
+      "What benefits does this method provide compared to taking notes in a traditional manner?",
+      "In what situations might this method be less effective for taking notes?"
+    ],
+    "metadata": {
+      "date": "2026-01-14",
+      "topic": "Reading",
+      "entry_id": "journal-004",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\04_2026-01-14_reading.md",
+      "filename": "04_2026-01-14_reading.md",
+      "file_type": "markdown",
+      "title": "Reading",
+      "date_object": "2026-01-14",
+      "chunk_index": 2,
+      "chunking_method": "semantic",
+      "sentence_start": 4,
+      "sentence_end": 5,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-004_chunk_3",
+    "document_id": "journal-004",
+    "content": "I am beginning to think of my personal notes as a searchable knowledge base rather than a collection of forgotten documents.",
+    "title": "Transforming Personal Notes into a Searchable Knowledge Base",
+    "summary": "The writer has transformed their personal notes from a collection of forgotten documents into a searchable knowledge base.",
+    "keywords": [
+      "personal notes",
+      "searchable knowledge base",
+      "searchable database",
+      "knowledge organization",
+      "searchable collection",
+      "note organization"
+    ],
+    "questions": [
+      "What are the benefits of viewing personal notes as a searchable database?",
+      "How does this transformation affect the writer's ability to find information quickly?",
+      "What challenges might the writer have faced with their previous organization of notes?",
+      "What new skills or techniques might the writer need to develop for managing their knowledge base?",
+      "How might this change impact the writer's productivity and study habits?"
+    ],
+    "metadata": {
+      "date": "2026-01-14",
+      "topic": "Reading",
+      "entry_id": "journal-004",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\04_2026-01-14_reading.md",
+      "filename": "04_2026-01-14_reading.md",
+      "file_type": "markdown",
+      "title": "Reading",
+      "date_object": "2026-01-14",
+      "chunk_index": 3,
+      "chunking_method": "semantic",
+      "sentence_start": 6,
+      "sentence_end": 6,
+      "sentence_count": 1
+    }
+  },
+  {
+    "chunk_id": "journal-005_chunk_0",
+    "document_id": "journal-005",
+    "content": "I began a simple exercise routine with three strength sessions and several walking days each week. My goal is consistency rather than an aggressive target.",
+    "title": "Consistent Strength Training Routine",
+    "summary": "The individual has started a fitness routine consisting of three strength sessions and several walking days per week with the goal of maintaining consistency rather than achieving an aggressive target.",
+    "keywords": [
+      "fitness",
+      "strength training",
+      "walking days",
+      "consistency",
+      "aggressive target"
+    ],
+    "questions": [
+      "What specific exercises are included in the strength sessions?",
+      "How often are the walking days scheduled within the week?",
+      "What is the duration of each strength session and walking day?",
+      "Why did the individual choose to focus on consistency over an aggressive target?",
+      "Are there any specific fitness goals or outcomes the individual is aiming to achieve?"
+    ],
+    "metadata": {
+      "date": "2026-01-18",
+      "topic": "Fitness",
+      "entry_id": "journal-005",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\05_2026-01-18_fitness.md",
+      "filename": "05_2026-01-18_fitness.md",
+      "file_type": "markdown",
+      "title": "Fitness",
+      "date_object": "2026-01-18",
+      "chunk_index": 0,
+      "chunking_method": "semantic",
+      "sentence_start": 0,
+      "sentence_end": 1,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-005_chunk_1",
+    "document_id": "journal-005",
+    "content": "I noticed that exercise affects my evening study sessions more than I expected. On days when I take a walk after work, I transition out of work mode more easily and can concentrate on learning afterward.",
+    "title": "Exercise and Evening Study Sessions",
+    "summary": "The author observes that exercise, specifically walking after work, improves their concentration and ease of transition from work to studying.",
+    "keywords": [
+      "exercise",
+      "evening study",
+      "concentration",
+      "transition",
+      "work mode",
+      "learning",
+      "morning routine",
+      "after work",
+      "physical activity"
+    ],
+    "questions": [
+      "How does exercise impact the author's ability to focus during evening study sessions?",
+      "Does the author believe that any other types of exercise would have a similar positive effect on their study sessions?",
+      "How does the author suggest incorporating exercise into their daily routine to improve their work and study performance?",
+      "Does the author notice any other noticeable changes in their performance or mindset after taking a walk after work?",
+      "Do the author's observations support any theories about the importance of exercise for cognitive function and productivity?"
+    ],
+    "metadata": {
+      "date": "2026-01-18",
+      "topic": "Fitness",
+      "entry_id": "journal-005",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\05_2026-01-18_fitness.md",
+      "filename": "05_2026-01-18_fitness.md",
+      "file_type": "markdown",
+      "title": "Fitness",
+      "date_object": "2026-01-18",
+      "chunk_index": 1,
+      "chunking_method": "semantic",
+      "sentence_start": 2,
+      "sentence_end": 3,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-005_chunk_2",
+    "document_id": "journal-005",
+    "content": "I am also trying to avoid treating missed sessions as failures. If something interrupts the plan, I want to resume at the next reasonable opportunity instead of abandoning the whole week.",
+    "title": "Resuming Fitness Sessions After Interruptions",
+    "summary": "The writer aims to continue their fitness routine even if interrupted by unforeseen events, resuming at the earliest possible opportunity to avoid losing a week's worth of progress.",
+    "keywords": [
+      "fitness",
+      "missed sessions",
+      "resuming",
+      "reasonable opportunity",
+      "avoid failures",
+      "avoid abandoning"
+    ],
+    "questions": [
+      "How does the writer handle missed fitness sessions to maintain their routine?",
+      "What is the earliest opportunity the writer looks for to resume their fitness routine?",
+      "Why do they prioritize resuming at the next reasonable opportunity rather than abandoning the whole week?",
+      "What specific steps does the writer take to avoid treating missed sessions as failures?",
+      "How does this approach help the writer stay consistent with their fitness goals?"
+    ],
+    "metadata": {
+      "date": "2026-01-18",
+      "topic": "Fitness",
+      "entry_id": "journal-005",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\05_2026-01-18_fitness.md",
+      "filename": "05_2026-01-18_fitness.md",
+      "file_type": "markdown",
+      "title": "Fitness",
+      "date_object": "2026-01-18",
+      "chunk_index": 2,
+      "chunking_method": "semantic",
+      "sentence_start": 4,
+      "sentence_end": 5,
+      "sentence_count": 2
+    }
+  },
+  {
+    "chunk_id": "journal-005_chunk_3",
+    "document_id": "journal-005",
+    "content": "I wrote down this approach because I tend to over-plan routines and then become frustrated when real life changes them.",
+    "title": "Adjusting to Life Changes in Fitness Routines",
+    "summary": "The writer shares that they have a tendency to over-plan their fitness routines and feel frustrated when real-life changes disrupt these plans.",
+    "keywords": [
+      "fitness routines",
+      "over-planning",
+      "frustration",
+      "real-life changes",
+      "fitness adjustments"
+    ],
+    "questions": [
+      "What are some common causes of frustration in following planned fitness routines?",
+      "How do you personally adjust your fitness plans when real-life circumstances change?",
+      "What strategies do you use to prevent over-planning your fitness routines?",
+      "How important is it to be flexible with your fitness plans to accommodate unexpected changes?",
+      "Can you share an example of how you adjusted your fitness routine when faced with real-life changes?"
+    ],
+    "metadata": {
+      "date": "2026-01-18",
+      "topic": "Fitness",
+      "entry_id": "journal-005",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\05_2026-01-18_fitness.md",
+      "filename": "05_2026-01-18_fitness.md",
+      "file_type": "markdown",
+      "title": "Fitness",
+      "date_object": "2026-01-18",
+      "chunk_index": 3,
+      "chunking_method": "semantic",
+      "sentence_start": 6,
+      "sentence_end": 6,
+      "sentence_count": 1
+    }
+  }
+]

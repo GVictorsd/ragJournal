@@ -1,0 +1,102 @@
+[
+  {
+    "chunk_id": "journal-001_chunk_0",
+    "document_id": "journal-001",
+    "content": "I started the year by writing down what I want from my career over the next two years. I want to become a stronger software engineer rather than simply collecting more framework names. My main technical goals are system design, cloud infrastructure, backend engineering, and practical AI application development. I also want to become more comfortable explaining trade-offs in interviews. A recurring problem in my learning is that I read about many subjects without building enough things. I am changing that by attaching each major topic to a project. For example, I want to learn retrieval-augmented generation by building a private journal assistant. The project should let me ask questions about old entries, retrieve relevant passages, and show the evidence used for an answer. I wrote down this plan because I want to be able to look back later and see whether my actual work matched my intentions.",
+    "metadata": {
+      "date": "2026-01-03",
+      "topic": "Career Planning",
+      "entry_id": "journal-001",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\01_2026-01-03_career_planning.md",
+      "filename": "01_2026-01-03_career_planning.md",
+      "file_type": "markdown",
+      "title": "Career Planning",
+      "date_object": "2026-01-03",
+      "chunk_index": 0,
+      "chunking_method": "fixed_token",
+      "start_token": 0,
+      "end_token": 167,
+      "token_count": 167
+    }
+  },
+  {
+    "chunk_id": "journal-002_chunk_0",
+    "document_id": "journal-002",
+    "content": "My mornings have been inconsistent, especially on days when I work late the previous evening. I experimented with preparing everything the night before: clothes, water bottle, breakfast ingredients, and a short list of priorities. The small amount of preparation made getting started easier. I also decided not to check social media immediately after waking up. Instead, I spend the first few minutes reviewing the day's calendar and deciding what absolutely needs attention. This is not a rigid productivity system. I mainly want fewer decisions before I become fully alert. I noticed that when I start calmly, I am less likely to spend the first hour reacting to messages. I want to keep this routine for several weeks before deciding whether it is actually useful.",
+    "metadata": {
+      "date": "2026-01-06",
+      "topic": "Morning Routine",
+      "entry_id": "journal-002",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\02_2026-01-06_morning_routine.md",
+      "filename": "02_2026-01-06_morning_routine.md",
+      "file_type": "markdown",
+      "title": "Morning Routine",
+      "date_object": "2026-01-06",
+      "chunk_index": 0,
+      "chunking_method": "fixed_token",
+      "start_token": 0,
+      "end_token": 141,
+      "token_count": 141
+    }
+  },
+  {
+    "chunk_id": "journal-003_chunk_0",
+    "document_id": "journal-003",
+    "content": "I reviewed the architecture of a web application I have been working with and tried to understand it as a set of responsibilities rather than a collection of folders. The frontend handles presentation and interaction, the API coordinates business operations, repositories manage persistence, and background workers handle tasks that do not need to block a request. Thinking this way made several design decisions easier to explain. I also noticed areas where boundaries are not clean and a change in one layer often requires changes elsewhere. I wrote down examples of coupling so I can discuss them later when studying refactoring. One important lesson is that architecture is not about creating as many layers as possible. Every abstraction should have a reason, and the cost of indirection should be justified by the problem it solves.",
+    "metadata": {
+      "date": "2026-01-10",
+      "topic": "Software Architecture",
+      "entry_id": "journal-003",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\03_2026-01-10_software_architecture.md",
+      "filename": "03_2026-01-10_software_architecture.md",
+      "file_type": "markdown",
+      "title": "Software Architecture",
+      "date_object": "2026-01-10",
+      "chunk_index": 0,
+      "chunking_method": "fixed_token",
+      "start_token": 0,
+      "end_token": 147,
+      "token_count": 147
+    }
+  },
+  {
+    "chunk_id": "journal-004_chunk_0",
+    "document_id": "journal-004",
+    "content": "I finished a book about habits and wrote a summary immediately afterward. The idea that stayed with me was that changing the environment can be more reliable than depending on motivation. I applied that idea to technical learning by leaving my notebook open on the desk and keeping a small list of questions next to the computer. I also started making shorter reading notes. Instead of trying to capture every interesting sentence, I record the main argument, one example, and whether I think the idea is applicable to my own work. This should make the notes more useful for future retrieval. I am beginning to think of my personal notes as a searchable knowledge base rather than a collection of forgotten documents.",
+    "metadata": {
+      "date": "2026-01-14",
+      "topic": "Reading",
+      "entry_id": "journal-004",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\04_2026-01-14_reading.md",
+      "filename": "04_2026-01-14_reading.md",
+      "file_type": "markdown",
+      "title": "Reading",
+      "date_object": "2026-01-14",
+      "chunk_index": 0,
+      "chunking_method": "fixed_token",
+      "start_token": 0,
+      "end_token": 132,
+      "token_count": 132
+    }
+  },
+  {
+    "chunk_id": "journal-005_chunk_0",
+    "document_id": "journal-005",
+    "content": "I began a simple exercise routine with three strength sessions and several walking days each week. My goal is consistency rather than an aggressive target. I noticed that exercise affects my evening study sessions more than I expected. On days when I take a walk after work, I transition out of work mode more easily and can concentrate on learning afterward. I am also trying to avoid treating missed sessions as failures. If something interrupts the plan, I want to resume at the next reasonable opportunity instead of abandoning the whole week. I wrote down this approach because I tend to over-plan routines and then become frustrated when real life changes them.",
+    "metadata": {
+      "date": "2026-01-18",
+      "topic": "Fitness",
+      "entry_id": "journal-005",
+      "source": "C:\\Users\\Home\\Documents\\ragJournal\\dataset\\05_2026-01-18_fitness.md",
+      "filename": "05_2026-01-18_fitness.md",
+      "file_type": "markdown",
+      "title": "Fitness",
+      "date_object": "2026-01-18",
+      "chunk_index": 0,
+      "chunking_method": "fixed_token",
+      "start_token": 0,
+      "end_token": 122,
+      "token_count": 122
+    }
+  }
+]
