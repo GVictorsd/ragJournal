@@ -1,30 +1,17 @@
 import sys
 from pathlib import Path
+
 root_dir = Path(__file__).resolve().parent.parent
 if str(root_dir) not in sys.path:
     sys.path.insert(0, str(root_dir))
 
 from app.models.chunk import Chunk
-
+from .ingestion import Document
 import tiktoken
 
 class FixedTokenChunker:
     """
     Splits documents into fixed-size token chunks with overlap.
-
-    Example:
-
-        chunk_size = 500
-        overlap = 100
-
-    Chunk 1:
-        tokens 0 - 499
-
-    Chunk 2:
-        tokens 400 - 899
-
-    Chunk 3:
-        tokens 800 - 1299
     """
 
     def __init__(
@@ -55,29 +42,20 @@ class FixedTokenChunker:
             encoding_name
         )
 
-    def chunk_document(
-        self,
-        document: Document,
-    ) -> list[Chunk]:
+    def chunk_document(self, document: Document,) -> list[Chunk]:
 
-        tokens = self.encoding.encode(
-            document.content
-        )
-
+        tokens = self.encoding.encode(document.content)
         chunks: list[Chunk] = []
-
         step = self.chunk_size - self.overlap
 
         start = 0
         chunk_index = 0
 
         while start < len(tokens):
-
             end = min(
                 start + self.chunk_size,
                 len(tokens),
             )
-
             chunk_tokens = tokens[start:end]
 
             chunk_text = self.encoding.decode(
@@ -85,7 +63,6 @@ class FixedTokenChunker:
             ).strip()
 
             if chunk_text:
-
                 chunks.append(
                     Chunk(
                         chunk_id=(
@@ -101,25 +78,17 @@ class FixedTokenChunker:
                             "start_token": start,
                             "end_token": end,
                             "token_count": len(chunk_tokens),
-                        },
+                        }
                     )
                 )
-
             chunk_index += 1
             start += step
-
         return chunks
 
-    def chunk_documents(
-        self,
-        documents: list[Document],
-    ) -> list[Chunk]:
-
+    def chunk_documents(self, documents: list[Document]) -> list[Chunk]:
         chunks: list[Chunk] = []
-
         for document in documents:
             chunks.extend(
                 self.chunk_document(document)
             )
-
         return chunks

@@ -2,18 +2,20 @@ import json
 import chromadb
 from pathlib import Path
 
-# Configuration
-# EMBEDDINGS_FILE = Path("data/embedded_fixed_chunks.json").resolve()
-EMBEDDINGS_FILE = Path("data/embedded_semantic_chunks.json").resolve()
 CHROMA_PATH = "./chroma_db"
-# COLLECTION_NAME = "journal_chunks_fixed"
-COLLECTION_NAME = "journal_chunks_semantic"
+EMBEDDINGS_FILE = Path("data/embedded_fixed_chunks.json").resolve()
+COLLECTION_NAME = "journal_chunks_fixed"
+# EMBEDDINGS_FILE = Path("data/embedded_semantic_chunks.json").resolve()
+# COLLECTION_NAME = "journal_chunks_semantic"
 
 def load_embeddings_to_chroma(
     embeddings_file: str,
     collection_name: str,
     chroma_path: str = "./chroma_db"
 ):
+    '''
+    Load embeddings and metadata into the ChromaDB
+    '''
     with open(embeddings_file, "r", encoding="utf-8") as f:
         chunks = json.load(f)
 
@@ -55,12 +57,11 @@ def load_embeddings_to_chroma(
 
 
 def main():
-    col = load_embeddings_to_chroma(
+    load_embeddings_to_chroma(
         embeddings_file=EMBEDDINGS_FILE,
         collection_name=COLLECTION_NAME,
         chroma_path=CHROMA_PATH
     )
-    print(col)
 
 if __name__=='__main__':
     main()

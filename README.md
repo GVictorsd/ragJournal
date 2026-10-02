@@ -4,9 +4,7 @@ A **Retrieval-Augmented Generation (RAG) application** for querying a collection
 
 The project is designed as a practical exploration of modern RAG pipelines — from document ingestion and chunking to embeddings, vector search, retrieval evaluation, reranking, generation, and source attribution.
 
----
-
-## ✨ Features
+## Features
 
 * **Journal document ingestion**
 * **Multiple chunking strategies**
@@ -25,8 +23,6 @@ The project is designed as a practical exploration of modern RAG pipelines — f
 * **Source attribution** for generated answers
 * Retrieval evaluation
 * Comparison of different embedding and retrieval strategies
-
----
 
 ## Architecture
 
@@ -85,8 +81,6 @@ The project follows a typical RAG pipeline:
                  │ attribution          │
                  └──────────────────────┘
 ```
-
----
 
 ## Repository Structure
 
@@ -159,8 +153,6 @@ scripts/
 
 Keeping these operations as separate scripts makes it easier to experiment with individual RAG components.
 
----
-
 # Getting Started
 
 ## 1. Create a virtual environment
@@ -185,8 +177,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
-
 # RAG Pipeline
 
 ## 1. Document Ingestion
@@ -203,8 +193,6 @@ Document
 └── content
 ```
 
----
-
 ## 2. Chunking
 
 Two chunking approaches are explored.
@@ -218,8 +206,6 @@ The overlap helps preserve context across chunk boundaries.
 
 This approach uses embeddings to group semantically similar sentences across a document to create chunks.
 Semantic chunking can produce easily understandable chunks that closely align to the content's subjects.
-
----
 
 ## 3. Chunk Enrichment
 
@@ -253,15 +239,11 @@ Example:
 
 Enrichment provides additional semantic signals that can be used during retrieval and experimentation.
 
----
-
 # Embeddings
 
 Each chunk is converted into a vector representation using an embedding model.
 The embeddings are stored in a vector database(ChromaDB) along with the metadata for Semantic retrieval and Metadata filtering.
 Different embedding models can be evaluated against the same dataset to compare retrieval quality.
-
----
 
 # Retrieval
 
@@ -289,8 +271,6 @@ date >= "2026-01-01"
 ```
 
 This allows semantic retrieval and structured filtering to work together.
-
----
 
 # Reranking
 
@@ -321,8 +301,6 @@ The project therefore uses a **two-stage retrieval strategy**:
 
 The cross-encoder evaluates the query and candidate chunk together, allowing a more detailed relevance score.
 
----
-
 # LLM Generation
 
 The final retrieved chunks are provided to an LLM as context.
@@ -331,8 +309,6 @@ Conceptually:
 User Query + Retrieved Context -> LLM -> Grounded Answer
 
 The generation step is instructed to use the retrieved journal entries rather than relying solely on the model's internal knowledge.
-
----
 
 # Source Attribution
 
@@ -352,8 +328,6 @@ Sources:
 ```
 
 Source attribution makes the generated response more transparent and helps verify whether the answer is actually supported by the retrieved context.
-
----
 
 # Retrieval Evaluation
 
@@ -411,8 +385,6 @@ This makes it possible to quantitatively compare:
 * Reranking
 * Metadata filtering
 
----
-
 # Experiments
 
 The repository is intended to be an experimentation platform for understanding RAG rather than a single fixed implementation.
@@ -431,9 +403,7 @@ Some of the experiments include:
 | Generation    | Different prompting strategies        |
 | Evaluation    | Recall@K, Precision@K, MRR, NDCG      |
 
----
-
-# 🛠️ Technology Stack
+# Technology Stack
 
 * **Python**
 * **ChromaDB** — vector database
@@ -442,9 +412,7 @@ Some of the experiments include:
 * **LLM API** — answer generation
 * **Markdown** — source journal format
 
----
-
-# 🎯 Learning Objectives
+# Learning Objectives
 
 This project was built to understand the complete lifecycle of a production-style RAG system:
 

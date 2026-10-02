@@ -1,8 +1,10 @@
 import json
 from pathlib import Path
 
-# Load enriched chunks
 def load_chunks(file_path: Path):
+    '''
+    Load enriched chunks
+    '''
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -17,16 +19,11 @@ def load_chunks(file_path: Path):
         "or an object with a 'chunks' field."
     )
 
-# Build text for embedding
+
 def build_embedding_text(chunk: dict) -> str:
     """
     Construct the semantic representation that will be embedded.
-
-    We intentionally do not embed the entire JSON object because
-    fields such as source path, filename, chunk_index, etc. are
-    metadata rather than semantic content.
     """
-
     title = chunk.get("title", "").strip()
     summary = chunk.get("summary", "").strip()
     content = chunk.get("content", "").strip()
@@ -53,11 +50,13 @@ def build_embedding_text(chunk: dict) -> str:
         f"Questions: {questions_text}\n"
         f"Content: {content}"
     )
-
     return embedding_text
 
-# Generate embeddings
+
 def generate_embeddings(chunks, model):
+    '''
+    Generate embeddings for the chunks
+    '''
     embedding_texts = [
         build_embedding_text(chunk)
         for chunk in chunks
@@ -72,9 +71,9 @@ def generate_embeddings(chunks, model):
     )
     return embeddings
 
+
 # Save output
 def save_embedded_chunks(chunks, embeddings, output_file: Path):
-
     output = []
     for chunk, embedding in zip(chunks, embeddings):
 
@@ -103,6 +102,6 @@ def save_embedded_chunks(chunks, embeddings, output_file: Path):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"\nSaved embedded chunks to: {output_file}")
+    print(f"Saved embedded chunks to: {output_file}")
     print(f"Number of chunks: {len(output)}")
     print(f"Embedding dimensions: {len(embeddings[0])}")

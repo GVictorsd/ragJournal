@@ -9,7 +9,6 @@ class CrossEncoderReranker:
         model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
     ):
         print(f"Loading reranker: {model_name}")
-
         self.model = CrossEncoder(model_name)
 
     def rerank(

@@ -1,22 +1,23 @@
+import sys
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
-import sys
-from pathlib import Path
 root_dir = Path(__file__).resolve().parent.parent
 if str(root_dir) not in sys.path:
     sys.path.insert(0, str(root_dir))
 
 from app.rag.embedding import *
 
-# INPUT_FILE = Path("enriched_fixed_chunks.json").resolve()
-# OUTPUT_FILE = Path("embedded_fixed_chunks.json")
-INPUT_FILE = Path("enriched_semantic_chunks.json").resolve()
-OUTPUT_FILE = Path("embedded_semantic_chunks.json")
+INPUT_FILE = Path("data/enriched_fixed_chunks.json").resolve()
+OUTPUT_FILE = Path("data/embedded_fixed_chunks.json")
+# INPUT_FILE = Path("data/enriched_semantic_chunks.json").resolve()
+# OUTPUT_FILE = Path("data/embedded_semantic_chunks.json")
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-
 def main():
+    '''
+    Generate embeddings for the enriched chunks
+    '''
     print(f"Loading embedding model: {MODEL_NAME}")
     model = SentenceTransformer(MODEL_NAME)
     print(f"Loading chunks from: {INPUT_FILE}")
