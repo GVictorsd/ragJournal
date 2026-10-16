@@ -44,14 +44,7 @@ def load_markdown_documents(dataset_dir: str = "./dataset") -> list[Document]:
 
     documents: list[Document] = []
 
-    # TODO: remove count later
-    count = 0
-    max_count = 5
     for file_path in sorted(dataset_path.glob("*.md")):
-        # TODO: remove later
-        count += 1
-        if count > max_count:
-            break
         document = parse_markdown_file(file_path)
         if document is None:
             continue

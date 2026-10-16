@@ -65,7 +65,7 @@ def format_chroma_results(results) -> list[dict]:
         formatted.append({
             "chunk_id": chunk_id,
             # "content": document,
-            "content": metadata.content,
+            "content": metadata['content'],
             "metadata": metadata,
             "vector_distance": float(distance),
         })

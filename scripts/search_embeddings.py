@@ -8,6 +8,7 @@ if str(root_dir) not in sys.path:
     sys.path.insert(0, str(root_dir))
 
 from app.rag.reranker import *
+from app.rag.generation import generate_answer
 
 
 CHROMA_PATH = "./chroma_db"
@@ -15,6 +16,9 @@ COLLECTION_NAME = "journal_chunks_fixed"
 # COLLECTION_NAME = "journal_chunks_semantic"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CROSS_ENCODER_MODEL= "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+OLLAMA_HOST = ""
+MODEL = "qwen2.5:3b"
 
 def main():
     '''
@@ -55,16 +59,40 @@ def main():
         top_n=2,
     )
 
-    print("\nRERANKED RESULTS\n")
+    # print("\nRERANKED RESULTS\n")
 
-    for result in reranked:
+    # for result in reranked:
+    #     print(
+    #         f"Rank: {result['rerank_rank']}\n"
+    #         f"Score: {result['rerank_score']:.4f}\n"
+    #         f"Chunk: {result['chunk_id']}\n"
+    #         f"Topic: {result['metadata']['topic']}\n"
+    #         f"Content: {result['content']}\n"
+    #     )
+
+    # query = "What historical cities did I research for a future trip?"
+
+    # Output from your existing retrieval + reranking pipeline
+    # Each result must retain the original chunk content and metadata.
+    result = generate_answer(
+        query=query,
+        reranked_results=reranked,
+        ollama_url=OLLAMA_HOST,
+        model=MODEL
+    )
+
+    print("Answer:")
+    print(result["answer"])
+
+    print("\nSources:")
+    for source in result["sources"]:
         print(
-            f"Rank: {result['rerank_rank']}\n"
-            f"Score: {result['rerank_score']:.4f}\n"
-            f"Chunk: {result['chunk_id']}\n"
-            f"Topic: {result['metadata']['topic']}\n"
-            f"Content: {result['content']}\n"
+            f"[{source['source_id']}] "
+            f"{source['title']} | {source['date']} "
+            f"| {source['chunk_id']}"
         )
+        print(source["content"])
+
 
 if __name__=='__main__':
     main()
